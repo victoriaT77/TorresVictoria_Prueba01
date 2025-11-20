@@ -1,8 +1,8 @@
-package tvFanerozoico;
-
-public abstract class tvOsteichtyes extends tvGnathhostomata {
-    public tvOsteichtyes() {
-        super();
-        System.out.println("---Osteíctios");
-    }
+package tvProterozoico;
+public abstract class tvOsteichtyes extends tvGnathostomata{
+    private String tvNombre="Osteichtyes";
+    @Override
+    public void tvLineaTiempo(){ super.tvLineaTiempo(); System.out.println("Osteichtyes"); }
+    public String getTvNombre(){return tvNombre;}
+    public void setTvNombre(String n){tvNombre=n;}
 }

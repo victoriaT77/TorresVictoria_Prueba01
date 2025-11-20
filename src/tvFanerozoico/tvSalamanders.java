@@ -8,6 +8,7 @@ public class tvSalamanders extends tvAmphibians{
         if(tvSexo.equals("H")) System.out.println(tvNombre+" está comiendo");
     }
 
+    // REFACTORY
     public void tvLineaTiempoConAnimacion() {
 
         String[] niveles = {
