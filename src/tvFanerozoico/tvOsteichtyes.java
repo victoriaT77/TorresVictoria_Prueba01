@@ -1,4 +1,5 @@
-package tvProterozoico;
+package tvFanerozoico;
+
 public abstract class tvOsteichtyes extends tvGnathostomata{
     private String tvNombre="Osteichtyes";
     @Override
